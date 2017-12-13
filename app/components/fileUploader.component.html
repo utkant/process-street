@@ -1,0 +1,15 @@
+<div class="progress {{classes.progress}}">
+    <div class="bar progress-bar progress-bar-success progress-bar-striped" 
+         aria-valuenow="{{progress}}" aria-valuemin="0" aria-valuemax="100" role="progressbar"
+         style="width: 0%;">Total progress: {{progress}} %</div>
+</div>
+<div class="fileSelect {{classes.fileSelect}}">
+    <label class="btn btn-default">
+        Browse <input type="file" name="file"
+                      data-url="https://upload.wistia.com?access_token=35c19fe25f01a6221d5ee6565f4daf84914270f71d564ce44aea65b349af5799" 
+                      class="hidden">
+    </label>
+</div>
+<div class="player {{classes.player}}">
+    <div class="wistia_embed wistia_async_{{videoId}}"></div>
+</div>    
